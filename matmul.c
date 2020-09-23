@@ -40,7 +40,6 @@ extern void square_dgemm();
 /* #define MIN_SECS 1.0 */
 #define MIN_SECS 0.25
 
-#define DEBUG_RUN 1
 
 /*
   Note the strange sizes...  You'll see some interesting effects
