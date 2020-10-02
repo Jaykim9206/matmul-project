@@ -10,7 +10,7 @@ LD=gfortran
 PYTHON=python
 
 # Compiler optimization flags.  You will definitely want to play with these!
-OPTFLAGS = -O3 -march=skylake-avx512 -ffast-math -funroll-loops -mavx512f
+OPTFLAGS = -O3 -march=skylake-avx512 -ffast-math -funroll-loops -mavx512f -mavx512cd -mavx512vl
 CFLAGS = -std=gnu99 
 FFLAGS =
 LDFLAGS = -fopenmp
