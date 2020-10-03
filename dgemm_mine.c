@@ -4,6 +4,7 @@ const char* dgemm_desc = "My awesome dgemm.";
 	__builtin_assume_aligned(var,alignment)
 #define MEMBD ((int) 64)
 void square_dgemm(const int M, const double* restrict A, const double* restrict B, double* restrict C)
+//void square_dgemm(const int M, const double *A, const double *B, double *C)
 {
     int i, j, k;
    A= GCC_ALN(A,MEMBD);
