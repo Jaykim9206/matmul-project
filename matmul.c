@@ -49,9 +49,9 @@ extern void square_dgemm();
 # define DEBUG_RUN 1
 
 const int test_sizes[] = {
-    31, 32, 96, 97, 127, 128, 129, 191, 192, 229,
+      8,16,24,32,48,64,96,128
 #if defined(DEBUG_RUN)
-# define MAX_SIZE 229u
+# define MAX_SIZE 128u
 #else
     255, 256, 257, 319, 320, 321, 417, 479, 480, 511, 512, 639, 640,
     767, 768, 769, 1023, 1024, 1025, 1525, 1526, 1527
